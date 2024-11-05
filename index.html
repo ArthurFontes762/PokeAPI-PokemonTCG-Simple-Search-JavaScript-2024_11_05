@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Pokémon</title>
+    <link rel="stylesheet" href="css/main.css"> <!-- Arquivo CSS -->
+</head>
+<body>
+    <!-- Imagem do logotipo -->
+    <img src="img/Pokemon Database Search.png" alt="Logo do site" class="logo">
+
+    <form id="pokemonForm2" onsubmit="return submitForm2();">
+        <label for="pokemon">Nome do Pokémon:</label>
+        <input type="text" id="pokemon2" name="pokemon2" placeholder="Apenas o nome do Pokémon" required oninput="toggleButton();">
+        <button type="submit" id="submitButton2" disabled>Buscar</button> <!-- Altere para type="submit" -->
+    </form>
+
+    <script src="js/pokemon.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>

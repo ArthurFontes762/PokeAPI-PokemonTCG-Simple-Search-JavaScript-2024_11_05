@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados do Pokémon</title>
+    <link rel="stylesheet" href="css/result.css"> <!-- Arquivo CSS -->
+</head>
+<body>
+    <!-- Imagem do logotipo -->
+    <img src="img/Pokemon Database Search.png" alt="Logo do site" class="logo">
+
+    <!-- Aqui começam os dados do Pokémon -->
+    <div class='pokemon-info' id="pokemon-info" style="display: none;">
+        <h1>Informações do Pokémon: <span id="pokemon-name"></span></h1>
+        <p>ID: <span id="pokemon-id"></span></p>
+        <p>Altura: <span id="pokemon-height"></span> m</p>
+        <p>Peso: <span id="pokemon-weight"></span> kg</p>
+        <img src="" alt="" id="pokemon-sprite" class='pokemon-sprite'>
+
+        <h2>Carta do Pokémon TCG: <span id="card-name"></span></h2>
+        <img id="card-image" src="" alt="Imagem da carta do Pokémon" />
+    </div>
+    <!-- Aqui terminam os dados do Pokémon -->
+
+    <!-- Mensagem de erro -->
+    <p class='error' id="error-message" style="display: none;">Erro ao buscar informações. Verifique o nome e tente novamente.</p>
+
+    <!-- Botão para voltar à página anterior -->
+    <button onclick="goBack()" class="back-button">Voltar</button>
+
+    <script src="js/pokemon.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>

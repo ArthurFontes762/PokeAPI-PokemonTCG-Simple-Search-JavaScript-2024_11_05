@@ -1,0 +1,108 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    display: flex; /* Para centralizar o conteúdo */
+    flex-direction: column; /* Para organizar em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Adiciona um espaço interno de 20 pixels */
+}
+
+/* Estilo para a imagem do logotipo */
+.logo {
+    display: block; /* Define o display como bloco para centralizar */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+    width: 1000px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Estilo para a seção de informações do Pokémon */
+.pokemon-info {
+    background-color: #fff; /* Cor de fundo branca */
+    font-weight: bold; /* Deixa o texto mais forte */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor da caixa */
+    padding: 10px; /* Espaço interno da caixa */
+    max-width: 600px; /* Largura máxima da caixa */
+    margin: 10px auto; /* Centraliza a caixa na página com margem em cima e embaixo */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo para o sprite do Pokémon*/
+.pokemon-sprite {
+    width: 200px; /* Defina a largura desejada do sprite */
+    height: auto; /* Mantém a proporção */
+    margin-top: 10px; /* Espaço acima da imagem */
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #3466AF; /* Cor YInMn Blue */
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    color: #3466AF; /* Cor YInMn Blue */
+    font-size: 1.5em; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    margin-top: 20px; /* Espaço acima do subtítulo */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1.1em; /* Tamanho da fonte dos parágrafos */
+    color: #555; /* Cor do texto */
+    margin: 10px 0; /* Margem em cima e embaixo */
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%; /* Limita a largura da imagem ao máximo do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px; /* Espaço acima da imagem */
+}
+
+/* Estilo para a carta do Pokémon TCG */
+#card-image {
+    width: 500px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Para manter a proporção */
+    object-fit: contain; /* Para manter a proporção sem distorcer */
+    margin-top: 10px; /* Espaço acima da imagem */
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red; /* Cor do texto para mensagens de erro */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para mensagens de sucesso */
+.success {
+    color: green; /* Cor do texto para mensagens de sucesso */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para o botão de voltar */
+.back-button {
+    background-color: #3466AF; /* Cor YInMn Blue */
+    color: #FFCB05; /* Texto Dark Yellow (Tangerine Yellow) */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaço interno do botão */
+    font-size: 1em; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    margin-top: 20px; /* Margem acima do botão */
+    transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.back-button:hover {
+    background-color: #1D2C5E; /* Cor Delft blue */
+    color: #C7A008; /* Cor Neon Gold */
+}

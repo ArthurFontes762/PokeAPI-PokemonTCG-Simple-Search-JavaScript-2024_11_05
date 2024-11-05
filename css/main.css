@@ -1,0 +1,76 @@
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    display: flex; /* Para centralizar o conteúdo */
+    flex-direction: column; /* Para organizar em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo para a imagem do logotipo */
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 1000px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex; /* Usado para organizar os elementos em linha */
+    flex-direction: column; /* Organiza em coluna */
+    align-items: stretch; /* Estica os elementos para preencher o espaço */
+    width: 300px; /* Largura fixa do formulário */
+}
+
+/* Estilo para os rótulos do formulário */
+label {
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+    font-weight: bold; /* Deixa o texto mais forte */
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"] {
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Espaço abaixo do campo */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+}
+
+/* Estilo para o botão de busca */
+button {
+    background-color: #3466AF; /* Cor YInMn Blue */
+    color: #FFCB05; /* Texto Dark Yellow (Tangerine Yellow) */
+    border: none; /* Remove a borda padrão */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #1D2C5E; /* Cor Delft blue */
+    color: #C7A008 /* Cor Neon Gold */
+}
+
+/* Efeito do botão desativado */
+#submitButton2:disabled {
+    background-color: #cccccc; /* Cor cinza */
+    color: #666666; /* Cor do texto */
+    cursor: not-allowed; /* Indica que está desativado */
+    opacity: 1; /* Mantenha a opacidade em 1 */
+}
