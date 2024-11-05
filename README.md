@@ -9,6 +9,6 @@ Trabalho do curso a ser mostrado no dia 12/11/2024. É um buscador simples de to
 - PokémonTCG: https://pokemontcg.io
 
 ### Linguagens Utilizadas
-- PHP
+- HTML
 - CSS
 - JavaScript
