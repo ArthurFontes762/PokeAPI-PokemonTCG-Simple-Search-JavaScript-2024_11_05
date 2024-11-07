@@ -7,7 +7,7 @@ body {
     flex-direction: column; /* Para organizar em coluna */
     align-items: center; /* Centraliza horizontalmente */
     justify-content: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura total da janela */
+    height: 100%; /* Altura total da janela */
     margin: 0; /* Remove margens padrão */
 }
 
@@ -15,9 +15,36 @@ body {
 .logo {
     display: block;
     margin: 0 auto;
-    width: 1000px; /* Largura da imagem */
+    width: 700px; /* Largura da imagem */
     height: auto; /* Mantém a proporção */
     margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+.projects {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para parágrafos */
+.projects-text {
+    font-size: 1.1em; /* Tamanho da fonte dos parágrafos */
+    color: #555; /* Cor do texto */
+    margin: 10px 0; /* Margem em cima e embaixo */
+}
+
+.project-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Estilo para a imagem do projeto 1 */
+.project1 {
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    display: block; /* Define o display como bloco para centralizar */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção */
+    margin-bottom: 10px; /* Espaço abaixo da imagem */
 }
 
 /* Estilo para o formulário */

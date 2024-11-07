@@ -1,3 +1,17 @@
+// Garantir que o DOM foi carregado antes de rodar o script
+document.addEventListener('DOMContentLoaded', function() {
+    // Obter a imagem pelo ID
+    const image = document.getElementById('project1');
+    
+    // Verifique se o elemento realmente existe
+    if (image) {
+      image.addEventListener('click', function() {
+        // Redirecionar para a URL externa
+        window.open('https://arthurfontes762.github.io/Sonic-Memory-Game-JavaScript-2024_08_29/', '_blank');
+      });
+    }
+});
+
 // Função chamada quando o formulário é enviado
 function submitForm2() {
     const pokemonName = document.getElementById('pokemon2').value; // Obtém o valor do campo de entrada do Pokémon
